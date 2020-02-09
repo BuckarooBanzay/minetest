@@ -45,6 +45,9 @@ private:
 	// get_modpath(modname)
 	static int l_get_modpath(lua_State *L);
 
+	// get_profiler_value(profiler_name)
+	static int l_get_profiler_value(lua_State *L);
+
 	// get_modnames()
 	// the returned list is sorted alphabetically for you
 	static int l_get_modnames(lua_State *L);
